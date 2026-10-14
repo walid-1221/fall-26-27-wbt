@@ -178,7 +178,81 @@
                 <td><input type="text" id="memorialZip" name="memorialZip"></td>
             </tr>
         </table>
-       
+       <h2>Additional Information</h2>
+
+<p>Please enter your name, company or organization as you would like it to appear in our publications:</p>
+
+    <p>
+        <label for="name">Name</label><br>
+        <input type="text" id="name" name="name" size="30">
+    </p>
+
+    <p>
+        <input type="checkbox" id="anonymous" name="anonymous">
+        <label for="anonymous">I would like my gift to remain anonymous.</label><br>
+        
+        <input type="checkbox" id="matching" name="matching">
+        <label for="matching">My employer offers a matching gift program. I will mail the matching gift form.</label><br>
+        
+        <input type="checkbox" id="save_cost" name="save_cost">
+        <label for="save_cost">Please save the cost of acknowledging this gift by not mailing a thank you letter.</label>
+    </p>
+
+    <table>
+        <tr>
+            <td width="380" valign="top" align="right">
+                <label for="comments">Comments</label><br>
+                (Please type any questions or feedback here)
+            </td>
+            <td valign="top">
+                <textarea id="comments" name="comments" rows="3" cols="30"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td width="380" valign="top" align="right">
+                How may we contact you?
+            </td>
+            <td valign="top">
+                <input type="checkbox" id="contact_email" name="contact_email">
+                <label for="contact_email">E-mail</label><br>
+                
+                <input type="checkbox" id="contact_postal" name="contact_postal">
+                <label for="contact_postal">Postal Mail</label><br>
+                
+                <input type="checkbox" id="contact_telephone" name="contact_telephone">
+                <label for="contact_telephone">Telephone</label><br>
+                
+                <input type="checkbox" id="contact_fax" name="contact_fax">
+                <label for="contact_fax">Fax</label>
+            </td>
+        </tr>
+        <tr>
+            <td width="380" valign="top" align="right">
+                I would like to receive newsletters and information about special events by:
+            </td>
+            <td valign="top">
+                <input type="checkbox" id="news_email" name="news_email">
+                <label for="news_email">E-mail</label><br>
+                
+                <input type="checkbox" id="news_postal" name="news_postal">
+                <label for="news_postal">Postal Mail</label>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <p>
+        <input type="checkbox" id="volunteer" name="volunteer">
+        <label for="volunteer">I would like information about volunteering with the</label>
+        <input type="text" name="volunteer_org" size="25">
+    </p>
+
+    <p>
+        <button type="reset">Reset</button>
+        <button type="submit">Continue</button>
+    </p>
+
     </form>
  
 </body>
